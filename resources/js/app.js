@@ -1,6 +1,8 @@
 import { createApp } from 'vue';
-import Header from './components/Header.vue';
+import Navbar from './components/Navbar.vue';
+import Carrousel from './components/Carrousel.vue';
 import BootstrapVueNext from 'bootstrap-vue-next';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 // Importar estilos de Bootstrap y BootstrapVueNext
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,7 +15,8 @@ const app = createApp({});
 app.use(BootstrapVueNext);
 
 // Registrar componentes
-app.component('header-component', Header);
+app.component('navbar-component', Navbar);
+app.component('carrousel-component', Carrousel);
 
 // Montar la aplicación
 app.mount('#app');
