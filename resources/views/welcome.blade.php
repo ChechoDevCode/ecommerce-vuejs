@@ -17,6 +17,8 @@
 <body>
     <div id="app">
         <header-component></header-component>
+        <h1>Main</h1>
+        <carrousel-component></carrousel-component>
     </div>
     
 </body>
