@@ -16,9 +16,9 @@
 </head>
 <body>
     <div id="app">
-        <header-component></header-component>
+        <navbar-component></navbar-component>
         <h1>Main</h1>
-        <carrousel-component></carrousel-component>
+        <!-- <carrousel-component></carrousel-component> -->
     </div>
     
 </body>
